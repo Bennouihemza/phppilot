@@ -1,0 +1,13 @@
+
+/vendor/
+/node_modules/
+*.phar
+/build/
+/out/
+.env
+config.php
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
