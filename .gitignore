@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /vendor/
 /node_modules/
@@ -11,3 +12,48 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+=======
+# PHP 
+
+
+# Dépendances Composer
+/vendor/
+
+# Fichiers de configuration sensibles
+.env
+config.php
+
+# Cache et logs
+/tmp/
+/logs/
+*.log
+
+# Fichiers IDE et système
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# PHP 
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+>>>>>>> 7a95c6670922980e888c8d255d6fa3174bc8f31c
