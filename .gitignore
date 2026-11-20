@@ -1,5 +1,23 @@
-# CakePHP 3
+# PHP 
 
+
+# Dépendances Composer
+/vendor/
+
+# Fichiers de configuration sensibles
+.env
+config.php
+
+# Cache et logs
+/tmp/
+/logs/
+*.log
+
+# Fichiers IDE et système
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 /vendor/*
 /config/app.php
 
@@ -17,7 +35,7 @@
 /logs/*
 !/logs/empty
 
-# CakePHP 2
+# PHP 
 
 /app/tmp/*
 /app/Config/core.php
